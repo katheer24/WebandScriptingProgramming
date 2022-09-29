@@ -1,0 +1,78 @@
+/*CSS3*/ 
+@charset "UTF-8"; 
+
+body
+{
+    background: yellow;
+    background: -moz-linear-gradient(top, red 0%, yellow 100%);
+    background: -webkit-linear-gradient(top, red 0%, yellow 100%);
+    background: -o-linear-gradient(top, red 0%, yellow 100%);
+    background: linear-gradient(to bottom, red 0%,yellow 100%);
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    padding:0px;
+    margin:0px;
+    background-color: black;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    padding:0px;
+    margin:0px;
+    background-color: turquoise;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+#wrapper 
+{
+    width: 960px;
+    height: 600px; 
+    margin-left: auto;
+    margin-right: auto;
+    background-color: yellow;
+}
+
+#banner 
+{
+    height: 100px; 
+    background-color:SlateGrey; 
+        
+}
+
+#left-column
+{
+    float: left;
+    width: 360px;
+    height: 650px;
+    background-color: yellow;
+}
+#right-column 
+{ 
+    float: right; 
+    width: 600px;
+    height: 650px;
+    background-color: rgb(78, 76, 76);
+}
+
+.box
+{
+    height: 100px;
+    width: 100px;float: left;
+    margin: 15px;
+    padding: 25px;
+    opacity:.5;
+    border-radius: 75px;
+    background-color: brown;
+}
+h1,h2,h3,h4,h5,h6,p,li { 
+    margin-left:15px; 
+    } 
+#footer
+{ 
+    height: 100px;
+    background-color: black;
+}
+
+.box:hover
+{ 
+    background-color: rgb(248, 98, 98);
+    opacity: 1;
+}
